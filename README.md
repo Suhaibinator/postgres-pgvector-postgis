@@ -4,6 +4,8 @@ A Docker image for PostgreSQL 18 with [pgvector](https://github.com/pgvector/pgv
 
 Perfect for RAG (Retrieval-Augmented Generation) applications that need vector similarity search for embeddings alongside spatial/geographic queries.
 
+Note: The official [postgis/postgis](https://hub.docker.com/r/postgis/postgis) Docker image does not provide arm64 builds ([tracking issue](https://github.com/postgis/docker-postgis/issues/216)), making this image a good choice for Apple Silicon Macs and ARM-based servers.
+
 ## Extensions
 
 | Extension | Version | Description |
