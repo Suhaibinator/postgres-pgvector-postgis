@@ -34,7 +34,7 @@ The extensions are automatically created on the default database at startup.
 docker pull ghcr.io/suhaib/postgres-pgvector-postgis:latest
 
 # Specific version
-docker pull ghcr.io/suhaib/postgres-pgvector-postgis:1.0.0
+docker pull ghcr.io/suhaib/postgres-pgvector-postgis:v1.0.0
 ```
 
 ### Docker Compose
