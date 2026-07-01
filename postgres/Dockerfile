@@ -5,7 +5,7 @@ LABEL maintainer="suhaib"
 LABEL description="PostgreSQL ${PG_MAJOR} with PostGIS and pgvector extensions"
 
 ARG PG_MAJOR=18
-ARG PGVECTOR_VERSION=0.8.1
+ARG PGVECTOR_VERSION=0.8.4
 
 # Install PostGIS and pgvector from source
 RUN apt-get update && \
